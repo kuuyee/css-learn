@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url('../img/1.jpg')  no-repeat;
+            background-size: 100%;
+        }
+
+        div {
+            border: 10px dashed hsla(0, 0%, 100%, 0.5);
+            background: white;
+
+            /** 设置这里是关键，否则会看不到边框 */            
+            background-clip: padding-box;
+
+            max-width: 20em;
+            padding: 2em;
+            margin: 4em auto;
+            font: 100%/1.5 sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        设置透明边框
+    </div>
+</body>
+
+</html>
