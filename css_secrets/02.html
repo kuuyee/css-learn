@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url('../img/1.jpg') no-repeat;
+            background-size: 100%;
+        }
+
+        div {
+
+            max-width: 20em;
+            padding: 2em;
+            margin: 4em auto;
+            font: 100%/1.5 sans-serif;
+        }
+
+        .box-shadow {
+            background: yellowgreen;
+            box-shadow: 0 0 0 10px #655, 
+                        0 0 0 15px deeppink, 
+                        0 8px 15px 20px rgba(226, 214, 228, 0.6),
+                        0 0 0 25px royalblue
+        }
+
+        .outline {
+            background: yellowgreen;
+            border: 10px solid #655;
+            outline: 5px solid deeppink;
+        }
+
+        .outline2 {
+            background: yellowgreen;
+            border: 10px solid #655;
+            outline: 2px dashed white;
+            outline-offset: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-shadow">
+        利用 box-shadow 设置多层边框
+    </div>
+
+    <div class="outline">
+        利用 outline 设置多层边框
+    </div>
+
+    <div class="outline2">
+        利用 outline 设置裁缝边框效果
+    </div>
+</body>
+
+</html>
